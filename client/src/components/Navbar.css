@@ -1,0 +1,62 @@
+.allitem{
+    display: flex;
+    height:4rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(25,0,83,1) 64%, rgba(58,42,103,1) 82%, rgba(68,55,112,1) 95%, rgba(79,68,121,1) 99%, rgba(87,78,128,1) 99%, rgba(88,80,129,1) 100%, rgba(91,83,131,1) 100%, rgba(96,89,135,1) 100%, rgba(106,102,144,1) 100%, rgba(114,111,151,1) 100%, rgba(126,125,161,1) 100%, rgba(128,128,163,1) 100%, rgba(130,130,164,0.5858718487394958) 100%, rgba(0,212,255,1) 100%);
+
+}
+
+nav{
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    margin:auto;
+    
+  
+}
+.nav-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem
+}
+
+.nav-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem
+}
+
+.nav-div2-inner{
+    display: flex;
+    flex-direction: column;
+    gap:0.2rem;
+  
+    
+}
+
+ h3{
+    font-size:3rem;
+    color:rgb(255, 255, 255);
+} 
+
+.cart-icon{
+     display: flex; 
+    position: absolute;
+    text-align: center;
+    
+    
+    margin-bottom: 140rem;
+  
+}
+.carti{
+    color:rgb(226, 226, 226);
+    text-align: center;
+  
+}
+.cart-number{
+    position: relative;
+    color:rgb(255, 238, 0);
+    font-size: 1.5rem;;
+}

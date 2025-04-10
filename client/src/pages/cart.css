@@ -1,0 +1,77 @@
+.cart{
+    height:auto;
+    width:75%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding-top:23px;
+    
+
+}
+.cartitem{
+    display:flex;
+    flex-direction: column;
+    gap:0.6rem;
+}
+.cartitem2{
+  
+    padding-left:1.5rem;
+    background-color: rgb(155, 161, 161);
+    border-radius: 15px;;
+}
+.part11{
+    color:rgb(9, 0, 87);
+    font-size: 1.6rem;;
+}
+.counti{
+    color:rgb(27, 73, 0);
+    font-size:1.3rem;
+}
+.part111{
+    color:rgb(27, 73, 0);
+    font-size: 1.5rem;;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.part-amount{
+    color:rgb(27, 73, 0);
+    font-size: 20px;
+}
+.buy{
+    width:8rem;
+    background-color:green ;
+    color:white;
+    border:solid rgb(0, 223, 0) 2px;
+}
+
+.empty-cart{
+    border:solid rgb(12, 12, 12) 0.5px;
+    border-radius: 2rem;;
+    width:40rem;
+    background-color: aqua;
+    height:6rem;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.empty{
+    color:red;
+    font-size: 2rem;;
+}
+
+.shop-btn{
+    color:rgb(227, 238, 227);
+    font-size: 1.6rem;
+    border:solid 1px green;
+    background-color: green;
+    border-radius:20px;
+}
