@@ -19,7 +19,7 @@ const Login = () => {
     toast.success("Loggedin successfully");
     <NavLink to="/home" />;
     try {
-      await axios.post("/api/v1/auth/login", { email, password });
+      await axios.post("https://zithara-ai-backend.onrender.com", { email, password });
       toast.success("Login Successfully");
       localStorage.setItem("authToken", true);
     } catch (err) {
