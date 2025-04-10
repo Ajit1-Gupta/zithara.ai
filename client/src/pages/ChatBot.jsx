@@ -14,7 +14,7 @@ const ChatBot = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/api/v1/openai/chatbot", { text });
+      const { data } = await axios.post("https://zithara-ai-backend.onrender.com", { text });
       console.log(data);
       setResponse(data);
     } catch (err) {
