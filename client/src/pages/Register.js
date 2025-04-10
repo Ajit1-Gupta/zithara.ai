@@ -25,7 +25,7 @@ const Register = () => {
    
     e.preventDefault();
     try {
-      await axios.post("/api/v1/auth/register", { username, email, password });
+      await axios.post("https://zithara-ai-backend.onrender.com", { username, email, password });
       toast.success("User Register Successfully");
       
     } catch (err) {
